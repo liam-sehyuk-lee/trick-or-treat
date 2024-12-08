@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{e8ddd34d-f316-43f3-a371-4ad97b2654d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gameNode">
+      <UniqueIdentifier>{96417ea6-a84f-446a-b4c1-b426703b36bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mainGame">
+      <UniqueIdentifier>{26e80509-563a-4838-9c4a-7aae8f8c12e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="image">
+      <UniqueIdentifier>{1211de52-0852-4e01-90cd-7775514bd0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UTIL">
+      <UniqueIdentifier>{827b390a-bfdb-4300-9388-b1d30bc5844d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iniData">
+      <UniqueIdentifier>{09d38c1e-65b7-4614-852e-d68e354143b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="loading">
+      <UniqueIdentifier>{0d072484-02e1-440f-9798-e64db0c311e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="singletonBase">
+      <UniqueIdentifier>{642e1bc3-8478-4af0-850a-1e380dbe3e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="텍스트데이터">
+      <UniqueIdentifier>{d50d8a43-c5b2-4595-af7a-14ed264e5932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="애니메이션">
+      <UniqueIdentifier>{dd300559-ba31-4dd6-bec5-1d4609cab0d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="이펙트">
+      <UniqueIdentifier>{c177b1b0-222b-4d7f-a7fd-08fadebca7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{a43b3692-f3fa-4ab1-be9b-fd9cd82366c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{eaf46141-adb0-45b2-8e96-8957c471ad60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{4adbfdf3-4a4a-486c-acea-8501b2df2c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{7c913984-4294-46e2-a706-a8d1c1aaaac9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="텍스트데이터\프로그래스바">
+      <UniqueIdentifier>{a747e338-3633-4338-8355-f5e9e16b49b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>singletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>gameNode</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>mainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>UTIL</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>image</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>텍스트데이터\프로그래스바</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="iniData.h">
+      <Filter>iniData</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="soundManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="loading.h">
+      <Filter>loading</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>텍스트데이터</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>애니메이션</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>이펙트</Filter>
+    </ClInclude>
+    <ClInclude Include="effectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="animationManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Loading.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Maptool.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Select.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Title.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Item.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_NPC.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_House.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Stage.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Effect.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Lock.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object_Ghost.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene_Instruction.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>gameNode</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>mainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>UTIL</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>image</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>텍스트데이터</Filter>
+    </ClCompile>
+    <ClCompile Include="iniData.cpp">
+      <Filter>iniData</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="soundManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="loading.cpp">
+      <Filter>loading</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>리소스 파일\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>텍스트데이터\프로그래스바</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>애니메이션</Filter>
+    </ClCompile>
+    <ClCompile Include="animationManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>이펙트</Filter>
+    </ClCompile>
+    <ClCompile Include="effectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Loading.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Maptool.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Select.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Title.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Item.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_NPC.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_House.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Stage.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Effect.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Lock.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object_Ghost.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Instruction.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
